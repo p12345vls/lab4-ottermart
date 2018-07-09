@@ -3,7 +3,7 @@
     <head>
         <title>OtterMart Product Search</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/lab-5-ottermart/main.css" type="text/css" />
+        <link rel="stylesheet" href="main.css" type="text/css" />
 
     </head>
 </html>

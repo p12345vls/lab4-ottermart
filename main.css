@@ -73,7 +73,7 @@ label {
 .noRecords {
     height: 800px;
 
-     background-image: url("/lab-5-ottermart/records.jpg");
+     background-image: url("records.jpg");
      background-repeat: repeat-x; 
 
 

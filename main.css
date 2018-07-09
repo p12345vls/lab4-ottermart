@@ -1,0 +1,92 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+
+td {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #428bca;
+    text-align: center;
+}
+
+button {
+    color: #5bc0de;
+}
+
+h2,
+hr {
+    color: #428bca;
+}
+
+.radio {
+    color: #428bca;
+}
+
+label {
+    color: #66666;
+}
+
+.history table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+
+.history th {
+    border: 3px solid #dddddd;
+    text-align: center;
+    padding: 18px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.history th {
+    font-size: 40px;
+}
+.history td {
+    color: #428bca;
+    text-align: center;
+}
+
+.history img {
+    width:100;
+    
+}
+
+.noRecords p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+    background-color:hsla(290,60%,70%,0.3);
+}
+
+.noRecords {
+    height: 800px;
+
+     background-image: url("/lab-5-ottermart/records.jpg");
+     background-repeat: repeat-x; 
+
+
+}
+
+.noRecords a button {
+    color:blue;
+    font-size: 30px;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+.noRecords hr {
+     background-color:hsla(290,60%,70%,0.3);
+     height: 80px;
+}

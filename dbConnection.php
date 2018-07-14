@@ -6,13 +6,13 @@ function getDatabaseConnection($dbname = 'ottermart') {
     $username = 'root';
     $password = '';
     
-     //when connecting from Heroku
+        //when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
         $host = $url["host"];
         $dbname = substr($url["path"], 1);
-        $username = $url["bcc0fb604c5fe6"];
-        $password = $url["3451c4e0"];
+        $username = $url["user"];
+        $password = $url["path"];
     } 
 
     
